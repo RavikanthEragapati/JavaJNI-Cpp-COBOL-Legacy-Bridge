@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/Library/Java/JavaVirtualMachines/amazon-corretto-17.jdk/Contents/Home/include",
+                "/Library/Java/JavaVirtualMachines/amazon-corretto-17.jdk/Contents/Home/include/darwin",
+                "/opt/homebrew/Cellar/gnucobol/3.2_1/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "macos-clang-arm64"
+        }
+    ],
+    "version": 4
+}
