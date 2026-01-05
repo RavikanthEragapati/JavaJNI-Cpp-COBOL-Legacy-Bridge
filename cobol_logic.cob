@@ -5,13 +5,10 @@
 
        WORKING-STORAGE SECTION.
        01  WS-TOTAL-EXECUTIONS    PIC S9(8) COMP-5 
-                                  IS EXTERNAL
                                   VALUE 0.
        01  WS-EVEN-COUNT          PIC S9(8) COMP-5 
-                                  IS EXTERNAL
                                   VALUE 0.
        01  WS-ODD-COUNT           PIC S9(8) COMP-5 
-                                  IS EXTERNAL
                                   VALUE 0.
        01  WS-REMAINDER           PIC 9(1).
        01  WS-DIVISOR             PIC 9(3) VALUE 100.
